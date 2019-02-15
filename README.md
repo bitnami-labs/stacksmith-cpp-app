@@ -1,7 +1,7 @@
 
 [![View in Stacksmith](https://img.shields.io/badge/view_in-stacksmith-00437B.svg)](https://stacksmith.bitnami.com/p/bitnami-public/apps/6f5953e0-1339-0137-c43e-62163b9b011a)
 
-# Packaging C/C++ web server application
+# C/C++ application: Simple Web Server
 
 This is an example to show how to package a C++ web server application using [Bitnami Stacksmith](stacksmith.bitnami.com).
 
@@ -12,7 +12,7 @@ The application is taken from [https://github.com/eidheim/Simple-Web-Server](htt
 1. Go to [stacksmith.bitnami.com](https://stacksmith.bitnami.com)
 2. Create a new application and select the _Generic application (no pre-installed runtime)_ stack template.
 3. Select the targets you are interested on (AWS, Kubernetes,...)
-4. Upload the [http_eaxmples](../../releases/download/v1.0.0/http_eaxmples) file (which can be found in [releases](../../releases) for the project.
+4. Upload the [http_examples](../../releases/download/v1.0.0/http_examples) file (which can be found in [releases](../../releases) for the project.
 5. Upload the [_build.sh_](stacksmith/user-scripts/build.sh) script from the [_stacksmith/user-scripts/_](stacksmith/user-scripts/) folder.
 6. Upload the [_run.sh_](stacksmith/user-scripts/run.sh) script from the [_stacksmith/user-scripts/_](stacksmith/user-scripts/) folder.
 7. Click the <kbd>Create</kbd> button.
